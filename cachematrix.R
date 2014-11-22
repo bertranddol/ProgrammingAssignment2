@@ -34,7 +34,7 @@ cacheSolve <- function(x, ...) {
   m <- x$getInverted()
   if(!is.null(m)) {
     m <- x$getInverted()
-    message("getting cached inverted vector..." )
+    message("Getting cached inverse matrix !" )
     return(m)
   }
   data <- x$get()
